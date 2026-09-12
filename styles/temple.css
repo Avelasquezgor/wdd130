@@ -32,9 +32,10 @@ h2 {
 }
 
 img {
-    width: 100x;
+    width: 400px;
     height: auto;
     box-shadow: 0 0 30px #333;
+    image-rendering: center;
 }
 
 section {
