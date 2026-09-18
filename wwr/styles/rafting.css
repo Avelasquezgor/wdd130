@@ -1,8 +1,7 @@
 :root {
     --primary-color: #112011e8;
-    --secondary-color: #589532;
-    --accent1-color: #eece18;
-    --accent2-color: #ffffffdc;
+    --secondary-color: #eece18;
+    --accent1-color: #ffffffdc;
     --heading-font: "Impact", fantasy;
     --body-font: "Gill Sans", sans-serif;
 
@@ -30,7 +29,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--accent1-color);
+    color: var(--secondary-color);
 }
 
 nav,
@@ -71,7 +70,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     color: #fff;
     font-size: 40px;
 }
@@ -80,7 +79,7 @@ h1 {
     position: absolute;
     bottom: 20px;
     right: 5px;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     padding: 10px;
     color: #fff;
     font-size: 20px;
@@ -89,7 +88,7 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
-    margin: 0 0 1opx 15px;
+    margin: 0 0 10px 15px;
 }
 
 h2 {
