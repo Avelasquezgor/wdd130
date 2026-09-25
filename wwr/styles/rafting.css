@@ -48,6 +48,7 @@ article {
 nav {
     display: flex;
     align-items: center;
+    width: 100;
 }
 
 .socialmedia a {
@@ -118,7 +119,7 @@ nav ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    gap: 30px;
+    width: 100%;
 }
 
 nav a {
@@ -168,7 +169,7 @@ footer {
 .adventure-gallery {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 12px;
 }
 
 .adventure-gallery figure {
@@ -179,11 +180,12 @@ footer {
 
 .adventure-gallery img {
     width: 100%;
-    height: auto;
+    height: 120%;
+    object-fit: cover;
     display: block;
 }
 
 .adventure-gallery figcaption {
     margin-top: 8px;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
