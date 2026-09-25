@@ -26,6 +26,11 @@ footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -40,6 +45,11 @@ article {
     padding: 8px;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
@@ -47,6 +57,7 @@ article {
 .socialmedia img {
     width: 40px;
     height: auto;
+    display: block;
 }
 
 .hero {
@@ -97,4 +108,82 @@ h2 {
     margin: 20px 0;
     background-color: var(--primary-color);
     text-align: center;
+}
+
+header img {
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 16px;
+}
+
+.history img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    justify-self: center;
+}
+
+.adventures figure {
+    flex: 1;
+    text-align: center;
+}
+
+.adventures img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.adventures figcaption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
+.adventure-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.adventure-gallery figure {
+    flex: 1;
+    margin: 0;
+    text-align: center;
+}
+
+.adventure-gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.adventure-gallery figcaption {
+    margin-top: 8px;
+    font-size: 0.9rem;
 }
