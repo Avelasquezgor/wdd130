@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <form>
+        <h1>HTML & CSS Quiz</h1>
+        <label for="q1">What does HTML stand for?</label>
+        <input name="q1" id="q1" type="text">
+        <label for="q2">What is CSS used for?</label>
+        <textarea name="q2" id="q2">
+        </textarea>
+        <label for="CSS-property">Which CSS property changes the text color?</label>
+        <select name="CSS-property" id="CSS-property">
+            <option value="text-color">text-color</option>
+            <option value="color">color</option>
+            <option value="background-color">background-color</option>
+            <option value="font-color">font-color</option>
+        </select>
+        <label for="q3">Which HTML markup is used to create a checkbox input
+            control?</label>
+        <select name="q3" id="q3">
+            <option value="checkbox">&lt;input type="checkbox"&gt;</option>
+            <option value="check">&lt;input type="check"&gt;</option>
+        </select>
+        <label for="q4">How many heading levels are available in HTML?</label>
+        <input name="q4" id="q4" type="number">
+        <button type="submit">Submit Quiz</button>
+    </form>
+</body>
+
+</html>
