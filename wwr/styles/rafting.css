@@ -81,16 +81,18 @@ nav a {
 
 .hero img {
     width: 100%;
-    max-width: 900px;
     object-fit: cover;
     display: block;
     height: auto;
     margin: 0 auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
+}
+
+h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -327,4 +329,45 @@ main > h2 {
     margin-top: 6px;
     font-size: 0.9rem;
     font-weight: bold;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.home-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.newsletter {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.call-to-action {
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.trip-details {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+.trip-details img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
